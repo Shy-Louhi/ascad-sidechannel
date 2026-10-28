@@ -11,15 +11,25 @@
 ## 仓库结构
 
 ascad-sidechannel/
+
 ├── data/               # 数据集（本地存放，不上传）
+
 ├── models/             # 神经网络模型
+
 │   ├── baseline_cnn.py # 基准CNN
+
 │   └── se_module.py    # SE-Net注意力模块
+
 ├── utils/              # 工具函数
+
 │   ├── dataloader.py   # 数据加载
+
 │   └── metrics.py      # 猜测熵等评估指标
+
 ├── visualize/          # Grad-CAM可视化
+
 ├── docs/               # 文献综述与文档
+
 └── train.py            # 训练脚本
 
 
